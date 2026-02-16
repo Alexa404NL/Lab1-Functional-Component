@@ -1,4 +1,4 @@
-const bancos = [
+export const bancos = [
     {
         id: 1,
         name: 'Banorte',
