@@ -2,7 +2,7 @@ import React from 'react'
 import {bancos} from './bancos.js'
 
 
-const banos = () => {
+const Banos = () => {
   return (
     <div>
         <h1>
@@ -19,4 +19,4 @@ const banos = () => {
   )
 }
 
-export default banos
+export default Banos

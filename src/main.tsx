@@ -9,10 +9,20 @@ import '../clases/funciones.ts'
 import '../clases/deconst.ts'
 import '../clases/import.ts'
 
-import '../banos.tsx'
+import Banos from '../lab1/Banos.tsx';
+import Var from '../lab1/Var.tsx';
+import Hello from '../lab1/Hello.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1></h1>
+    <div>
+      <Banos/>
+    </div>
+    <div>
+      <Var/>
+    </div>
+    <div>
+      <Hello/>
+    </div>
   </StrictMode>,
 )

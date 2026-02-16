@@ -25,5 +25,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "bancos.js"]
+  "include": ["src", "lab1/bancos.js"]
 }
